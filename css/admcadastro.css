@@ -1,0 +1,160 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #4a0072, #7b1fa2); /* Um gradiente roxo mais profundo e moderno */
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #3a0070; /* Um tom de roxo mais escuro para o fundo do formulário */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+  max-width: 900px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombras suaves nos inputs */
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombras mais pronunciadas ao focar */
+  outline: none;
+}
+
+input[type="file"] {
+  display: block;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #e91e63; /* Um tom de rosa para contrastar com o roxo */
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #d81b60; /* Cor de destaque mais intensa ao passar o mouse */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombras suaves ao passar o mouse */
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="file"] {
+  padding: 0.75rem;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="file"]:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombras suaves ao passar o mouse no campo de arquivo */
+}
+
+input[type="file"]:focus {
+  outline: none;
+}
+/* Estilo para o destaque do nome Iara Games e Área do Administrador */
+.sidebar {
+  background-color: #8a2be2; /* Cor de fundo contrastante em um roxo claro */
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra leve para destaque */
+  margin-bottom: 2rem;
+}
+
+.sidebar h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar p {
+  font-size: 1.2rem;
+}
+
+/* Centralização do container de conteúdo */
+.main-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/* Ajustes no formulário */
+form {
+  background-color: #3a0070;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Estilo adicional para os botões */
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #e91e63;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #d81b60;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
